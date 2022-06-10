@@ -6,7 +6,7 @@ zeebe:
       threads: 3
 
     job.timeout: 10000
-    broker.contactPoint: 127.0.0.1:26500
+    broker.contactPoint: zeebe:26500
     security.plaintext: true
 
 logging:
